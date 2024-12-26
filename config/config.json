@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "Admin#123",
+    "database": "gcs",
+    "host": "13.233.142.236",
+    "dialect": "mysql",
+    "logging": false,
+    "timezone": "+05:30"
+  },
+  "test": {
+    "username": "admin",
+    "password": "Admin#123",
+    "database": "gcs",
+    "host": "13.233.142.236",
+    "dialect": "mysql",
+    "timezone": "+05:30"
+  },
+  "production": {
+    "username": "admin",
+    "password": "Admin#123",
+    "database": "gcs",
+    "host": "13.233.142.236",
+    "dialect": "mysql",
+    "timezone": "+05:30"
+  }
+}
