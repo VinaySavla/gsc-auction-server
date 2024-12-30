@@ -49,8 +49,8 @@ router.post("/signin", async (req, res) => {
   const bodyData = req.body;
   const createResponse = await User.findOne({
     where: {
-      Email: bodyData.Email,
-      Password: bodyData.Password,
+      email: bodyData.email,
+      password: bodyData.password,
     },
   });
   res.header({
@@ -131,7 +131,7 @@ router.get("/getteams", async (req, res) => {
     include: [
       {
         model: Player,
-        as: "players",
+        as: "player",
       },
     ],
     //order condition
